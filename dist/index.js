@@ -1,6 +1,12 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const Persona_1 = require("./clases/Persona");
-const persona = new Persona_1.Persona("Laura", "González", new Date("1991-01-10"), 2984941000, "femenino", "laura.gonzalez@hotmail.com");
+import { Persona } from "./clases/Persona.js";
+import { Profesor } from "./clases/Profesor.js";
+import { Alumno } from "./clases/Alumno.js";
+const persona = new Persona("Laura", "González", new Date("1991-01-10"), 2984941000, "femenino", "laura.gonzalez@hotmail.com");
 console.log("Persona :");
 persona.presentarse();
+const profesor = new Profesor("Carlos", "Rodríguez", new Date("1980-03-03"), 2984115554, "masculino", "carlos.rodriguez@hotmail.com", "Analisis Matemático II");
+console.log("\nProfesor :");
+profesor.presentarse();
+const alumno = new Alumno("Yanina", "Ovejero", new Date("1998-01-01"), 2984258558, "femenino", "yanina.ovejero@gmail.com", "Tecnicatura Superior en Desarrollo de Software Full Stack");
+console.log("\nAlumno :");
+alumno.presentarse();

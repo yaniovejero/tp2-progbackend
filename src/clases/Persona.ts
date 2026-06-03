@@ -1,4 +1,4 @@
-import { IPersona } from "../interfaces/IPersona";
+import { IPersona } from "../interfaces/IPersona.js";
 
 export class Persona implements IPersona<Date> {
   nombre: string;
