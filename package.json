@@ -1,7 +1,7 @@
 {
-  "name": "tp2",
-  "version": "0.0.1",
-  "description": "TP2",
+  "name": "tp2-typescript",
+  "version": "1.0.0",
+  "description": "TP N°2 - Programación Backend - TypeScript",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
